@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:wght@600&family=Rajdhani&family=Titillium+Web&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* background-image: url(bg.jpg); */
+}
+body{
+    background-color: #8ecae6;
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    background-color:#023047;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 8px 7px #023047;
+    text-align: center;
+}
+.inputField{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.inputField div{
+    margin: 0.7rem;
+    width: 100%;
+}
+.inputField input{
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+.degree{
+    margin: 0.3rem;
+    background-color: #8ecae6;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.btn{
+    border: 1px solid white;
+    background-color:#8ecae6;
+    padding: 10px;
+    font-size: 15px;
+    border-radius:10px;
+    color: white;
+    transition: 1s;
+}
+.btn:hover{
+    border:1px solid gray;
+    background-color: white;
+    color: black;
+}

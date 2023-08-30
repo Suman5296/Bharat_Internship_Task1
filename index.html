@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatur Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Temprature Convertor</h1>
+        <div class="inputField">
+            <div><input type="number" id="cel" placeholder="Celcius" onchange="celcius()" ><span class="degree">C</span><br></div>
+            <div> <input type="number" id="frh" placeholder="Ferehenhit" onchange="Ferehenhit()" value=""><span class="degree">F</span><br></div>
+            <div><input type="number" id="klv" placeholder="Kelvin" onchange="Kelvin()" value=""><span class="degree">K</span><br></div>
+            <div><button onclick="clearall()" class="btn">Clear All</button></div>
+        </div>
+        <h1 id="display"></h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
